@@ -75,12 +75,14 @@ function draw() {
   playerArcher.display();
   computerArcher.display()
 
+ // Use for loop to display arrow using showArrow() function
  for (var i = 0; i < playerArrows.length; i++) {
   showArrows(i, playerArrows);
 }
 
 }
 
+/*********** Choose correct keyPressed() function out of these *************/
 
 function keyPressed() {
 
